@@ -7,7 +7,7 @@ type Props = {
 
 function AgentPulse({ color = 'blue', size = 'medium' }: Props) {
 	const sizeClasses = {
-		small: 'w-4 h-4',
+		small: 'w-5 h-5',
 		medium: 'w-12 h-12',
 		large: 'w-16 h-16',
 	}
