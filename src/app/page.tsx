@@ -1,5 +1,12 @@
-import React from 'react'
+'use client'
+
+import HomePageContent from '@/components/homepage'
+import PageWrapper from '@/components/wrapper/PageWrapper'
 
 export default function Home() {
-	return <div>ookk</div>
+	return (
+		<PageWrapper>
+			<HomePageContent />
+		</PageWrapper>
+	)
 }

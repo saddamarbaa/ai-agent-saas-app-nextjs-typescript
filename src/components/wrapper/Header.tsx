@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import AgentPulse from './AgentPulse'
+import AgentPulse from '../AgentPulse'
 
-import Auth from './auth/Auth'
-import { DarkModeToggle } from './ui/ModeToggle'
+import Auth from '../auth/Auth'
+import { DarkModeToggle } from '../ui/ModeToggle'
 
 export default function Header() {
 	return (
